@@ -40,10 +40,9 @@ console.log(animalIcon);
 console.log(vegetableIcon);
 console.log(userIcon);
 
-const button = document.querySelector('button');
 const inputUser = document.querySelector('input');
 
-button.addEventListener('click', function () {
+inputUser.addEventListener('change', function () {
 
     stampa.innerHTML = "";
     if (inputUser.value === "animal") {
