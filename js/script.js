@@ -14,5 +14,6 @@ iconJs.forEach((element) => {
     creatoDivCard.append(creatoDivText);
     stampa.append(creatoDivCard);
 
-
+    // colore icone
+    creatoDivImg.style.color = element.color;
 });
