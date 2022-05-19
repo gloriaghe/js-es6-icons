@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+
+    background-color: #dddddd;
+}
+
 header {
     height: 140px;
     width: 100%;
@@ -30,9 +35,8 @@ nav {
     font-weight: bold;
 }
 
-body {
-
-    background-color: #dddddd;
+input {
+    margin: 0 20px;
 }
 
 section {

@@ -17,3 +17,21 @@ iconJs.forEach((element) => {
     // colore icone
     creatoDivImg.style.color = element.color;
 });
+
+//icone divise per tipo
+animalIcon = [];
+vegetableIcon = [];
+userIcon = [];
+
+const filtroIcone = iconJs.filter ((tipo) => {
+    if (tipo.type === "animal") {
+        animalIcon.push(tipo);
+    } else if (tipo.type === "vegetable") {
+        vegetableIcon.push(tipo);
+    } else {
+        userIcon.push(tipo);
+    }
+});
+console.log(animalIcon)
+console.log(vegetableIcon)
+console.log(userIcon)
